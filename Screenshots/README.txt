@@ -1,0 +1,2 @@
+Jeg satte breakpoints i Board.java og Player.java og brugte Step Over (F8) og Step Into (F7).
+Jeg rettede getRandomInteger(1) til getRandomInteger(2), så der også placeres lodrette skibe.Jeg begrænsede x og y i addBattleship() med Math.min(..., grid.length - 1) for at undgå ArrayIndexOutOfBoundsException. Til sidst rettede jeg isSunk() i Board.java til hitCount >= BATTLESHIP_LENGTH, så skibe kan blive sunkne ved tre træffere.
